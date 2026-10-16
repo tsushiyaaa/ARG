@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音紡ぎ同好会 公式アーカイブ | 文化祭特設ページ</title>
+  <style>
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      background-color: #f0f7ff;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      line-height: 1.65;
+    }
+    .top-return-bar {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 8px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .top-return-bar a {
+      background: #38bdf8;
+      color: #082f49;
+      text-decoration: none;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+    .site-header {
+      background: linear-gradient(135deg, #0284c7, #4f46e5);
+      color: #fff;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    .site-header h1 {
+      margin: 0 0 6px;
+      font-size: 20px;
+    }
+    .site-header p {
+      margin: 0;
+      font-size: 12px;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 640px;
+      margin: 18px auto;
+      padding: 0 14px 40px;
+    }
+    .web-article-card {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    }
+    .web-article-meta {
+      font-size: 11px;
+      color: #64748b;
+      margin-bottom: 6px;
+    }
+    .web-article-title {
+      font-size: 16px;
+      color: #0f172a;
+      margin: 0 0 10px;
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 6px;
+    }
+    .web-article-body {
+      font-size: 14px;
+    }
+    .mirror-hint {
+      display: inline-block;
+      background: #fef2f2;
+      border: 1px dashed #ef4444;
+      color: #991b1b;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-top: 4px;
+      transform: scaleX(-1);
+    }
+    .mirror-note {
+      font-size: 11px;
+      color: #dc2626;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-return-bar">
+    <span id="web-flag-status">調査中</span>
+    <a href="../index.html">💬 ヒカネとのチャットに戻る</a>
+  </div>
+
+  <header class="site-header">
+    <h1>🎵 音紡ぎ同好会（ボカロ創作サークル）</h1>
+    <p>歌声合成・MMDライブ・オリジナル楽曲制作アーカイブ</p>
+  </header>
+
+  <main class="container">
+    <div id="web-Dynamic-content"></div>
+    <p class="mirror-note">※ヒント：ページ内に一部「鏡文字（左右反転）」で混入した不審なデータが確認されています。反転していない正規の情報をご確認ください。</p>
+  </main>
+
+  <script src="../data/scenario_data.js"></script>
+  <script src="../js/arg_engine.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.ARG_ENGINE.initWebPage("club");
+    });
+  </script>
+</body>
+</html>

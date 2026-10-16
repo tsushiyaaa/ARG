@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>U-Talk | 音紡ぎ同好会 連絡用チャット</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- ヘッダー -->
+    <header class="chat-header">
+      <div class="header-left">
+        <div class="avatar-circle">
+          ヒ
+          <span class="status-dot"></span>
+        </div>
+        <div>
+          <div class="header-title">ヒカネ（音紡ぎ同好会）</div>
+          <div class="header-subtitle">U-Talk 暗号化通信 ｜ オンライン</div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="header-btn" id="header-staff-btn" title="運営・デバッグメニュー (#staff00)">🛠️ 運営/ヒント</button>
+        <button class="header-btn" id="header-reset-btn" title="最初からやり直す">🔄 初期化</button>
+      </div>
+    </header>
+
+    <!-- 探索用別サイトへのクイックアクセスバー -->
+    <nav class="quick-nav">
+      <span class="quick-nav-label">🔍 調査リンク:</span>
+      <a class="nav-pill" href="pages/club.html">🎵 同好会アーカイブ</a>
+      <a class="nav-pill" href="pages/urban.html">👁️ 怪異まとめブログ</a>
+      <a class="nav-pill" href="pages/bbs.html">💬 裏キャンパスBBS</a>
+    </nav>
+
+    <!-- チャットタイムライン -->
+    <main class="chat-timeline" id="chat-timeline"></main>
+
+    <!-- キーワード自由入力欄 -->
+    <div class="chat-input-bar">
+      <input
+        type="text"
+        id="chat-input"
+        class="chat-input"
+        placeholder="キーワードを入力（例：コダマ / #staff00）"
+        autocomplete="off"
+      >
+      <button id="chat-send-btn" class="chat-send-btn">送信</button>
+    </div>
+
+    <!-- フィクション明記バー -->
+    <div class="disclaimer-bar">
+      ※この物語はフィクションであり、実在の人物・団体・大学・事件とは一切関係ありません。
+    </div>
+
+    <!-- 運営・デバッグモーダル (#staff00 でも起動) -->
+    <div class="staff-modal" id="staff-modal">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <h2 style="font-size:16px;color:#38bdf8;">🛠️ 運営・デバッグ支援メニュー (#staff00)</h2>
+        <button class="header-btn" onclick="document.getElementById('staff-modal').classList.remove('open')">✕ 閉じる</button>
+      </div>
+
+      <div class="staff-card">
+        <h3>📊 現在の進行ステータス＆正解確認</h3>
+        <div id="staff-status-box" style="font-size:12.5px;line-height:1.7;"></div>
+      </div>
+
+      <div class="staff-card">
+        <h3>💡 詰まった来場者への救済</h3>
+        <div class="staff-btn-grid">
+          <button class="staff-btn" onclick="window.ARG_FORCE_HINT()">現在の章の3段階ヒントをすべてチャットに表示</button>
+        </div>
+      </div>
+
+      <div class="staff-card">
+        <h3>⏭️ 章ジャンプ（テストプレイ・強制進行用）</h3>
+        <div class="staff-btn-grid">
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('chap1_start')">第1章：導入（曲名の謎）</button>
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('chap1_fake')">第1章：偽答えルート（マダコ）</button>
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('chap2_urban')">第2章：怪異の名前（うつしみさん）</button>
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('chap3_truth')">第3章：時間のズレ（3年前）</button>
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('chap4_ritual')">第4章：最終儀式（合言葉分岐）</button>
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('ending_bad')">BAD END確認</button>
+          <button class="staff-btn" onclick="window.ARG_JUMP_SCENE('ending_true')">TRUE END確認</button>
+        </div>
+      </div>
+
+      <div class="staff-card">
+        <h3>🔄 データ初期化</h3>
+        <button class="staff-btn" style="background:#7f1d1d;border-color:#f43f5e;" onclick="window.ARG_RESET()">進行データを完全に消去して最初から開始</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/scenario_data.js"></script>
+  <script src="js/arg_engine.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.ARG_ENGINE.initChatApp();
+    });
+  </script>
+</body>
+</html>

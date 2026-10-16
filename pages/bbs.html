@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>裏キャンパスBBS | 学内匿名掲示板ログ</title>
+  <style>
+    body {
+      font-family: "MS PGothic", "Hiragino Kaku Gothic ProN", monospace, sans-serif;
+      background-color: #efefef;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .top-return-bar {
+      background: #1e293b;
+      color: #f8fafc;
+      padding: 8px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .top-return-bar a {
+      background: #38bdf8;
+      color: #082f49;
+      text-decoration: none;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+    .bbs-header {
+      background: #d6e0f0;
+      border-bottom: 2px solid #8fa3c7;
+      padding: 14px 16px;
+    }
+    .bbs-header h1 {
+      margin: 0;
+      font-size: 17px;
+      color: #b91c1c;
+    }
+    .bbs-header p {
+      margin: 4px 0 0;
+      font-size: 11px;
+      color: #475569;
+    }
+    .container {
+      max-width: 660px;
+      margin: 14px auto;
+      padding: 0 12px 40px;
+    }
+    .web-article-card {
+      background: #f8fafc;
+      border: 1px solid #94a3b8;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 4px;
+    }
+    .web-article-meta {
+      font-size: 11px;
+      color: #047857;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .web-article-title {
+      font-size: 14px;
+      color: #991b1b;
+      margin: 0 0 8px;
+    }
+    .web-article-body {
+      font-size: 13.5px;
+    }
+    /* タップまたはドラッグ選択で浮かび上がる隠し文字ギミック */
+    .secret-reveal {
+      background-color: #111827;
+      color: #111827;
+      padding: 10px 12px;
+      border-radius: 6px;
+      border: 1px dashed #64748b;
+      cursor: pointer;
+      user-select: all;
+      transition: color 0.25s, background-color 0.25s;
+    }
+    .secret-reveal:hover,
+    .secret-reveal:active,
+    .secret-reveal.revealed {
+      background-color: #fef9c3;
+      color: #0f172a;
+      border-color: #eab308;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-return-bar">
+    <span id="web-flag-status">調査中</span>
+    <a href="../index.html">💬 ヒカネとのチャットに戻る</a>
+  </div>
+
+  <header class="bbs-header">
+    <h1>💬 裏キャンパスBBS — 実況＆過去ログ倉庫</h1>
+    <p>学内ローカル掲示板アーカイブ（※黒塗り部分はタップまたは選択で表示されます）</p>
+  </header>
+
+  <main class="container">
+    <div id="web-Dynamic-content"></div>
+  </main>
+
+  <script src="../data/scenario_data.js"></script>
+  <script src="../js/arg_engine.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.ARG_ENGINE.initWebPage("bbs");
+      document.body.addEventListener("click", function (e) {
+        const box = e.target.closest(".secret-reveal");
+        if (box) box.classList.toggle("revealed");
+      });
+    });
+  </script>
+</body>
+</html>
