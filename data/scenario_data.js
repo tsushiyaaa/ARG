@@ -1,512 +1,640 @@
 // 自動生成ファイル: scripts/compile_scenario.py により生成
 window.ARG_SCENARIO = {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-17",
   "initial_scene": "chap1_start",
   "scenes": {
-    "chap1_start": [
-      {
-        "speaker": "system",
-        "message": "暗号化通信回線「U-Talk」に接続しました。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "……えっ、つながった！？ 誰かいますか！？",
-        "effect": "date_3yrs_ago",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "よかった……！ 外で配られていた手紙を見て、このページにアクセスしてくれたんですね！ 私、音紡ぎ同好会（ボカロ同好会）1年の「ヒカネ」っていいます。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "文化祭の準備をしてたら、急に部室のドアが開かなくなって……窓の外も霧みたいにぼやけて、誰の声も聞こえないんです。",
-        "effect": "normal",
-        "media": "photo_room.svg",
-        "caption": "ヒカネから送られてきた部室の写真（時計の針が止まっている）"
-      },
-      {
-        "speaker": "hikane",
-        "message": "目の前にある古いPCの画面に『ロック解除キー：当サークルが2023年の文化祭で発表した記念曲【〇〇〇のうた】の〇〇〇を入力せよ』って出てるんですけど、私、パニックで思い出せなくて……。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "下のリンクから私たちの同好会のWebページを見て、〇〇〇に入る3文字を教えてもらえませんか！？（链接： pages/club.html ）",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ],
-    "chap1_fake": [
-      {
-        "speaker": "mystery",
-        "message": "……ソッチハ、罠ダ……反転シタ文字ヲ信ジルナ……",
-        "effect": "glitch",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "きゃあっ！？ いま画面にすごいノイズが走って、変な文字が割り込んできました……！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "『マダコ』って入れたら、PCの画面が真っ赤に点滅してエラーになっちゃいました……！ あっ、でもよく見てください！ 同好会ページの『マダコ』って書かれていた場所、周りの記号が【左右逆さま（鏡文字）】になっていませんか！？",
-        "effect": "mirror",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "誰かがWebページに細工をして、逆さまの偽情報を混ぜてるみたいです……！ もう一度、鏡文字じゃない方の『ほんとうの3文字』を探して入力してください！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ],
-    "chap2_urban": [
-      {
-        "speaker": "hikane",
-        "message": "……カチッて音がして、PCのロックが1つ外れました！『コダマ（木霊）のうた』だったんですね、ありがとうございます！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "……気ヲツケロ……ソノ空間ニハ『うつしみ』ガイル……",
-        "effect": "glitch",
-        "media": "voice_warning.synth",
-        "caption": "（合成音声のようなノイズ声：「気ヲツケロ…ソノ空間ニハ…ウツシミガイル…」）"
-      },
-      {
-        "speaker": "mystery",
-        "message": "直接伝エルト感付カレル……展示ノ実物ト照ラシ合ワセロ……",
-        "effect": "vanish",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "ひっ……！？ またさっきの不気味なアカウントが割り込んできて、しかもメッセージが勝手に消えました……！ あの人、いったい誰なの……！？",
-        "effect": "long_typing",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "でも、ロックが外れたPCの中に、妙なブックマークが2つ残されていました。オカルトまとめブログ（ pages/urban.html ）と、学内の匿名掲示板（ pages/bbs.html ）みたいです。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "私を閉じ込めている『怪異の名前』が分かれば、ここから出る方法も分かるかもしれません。2つのページを調べて、その怪異の名前を教えてもらえませんか？",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ],
-    "chap3_truth": [
-      {
-        "speaker": "hikane",
-        "message": "『うつしみさん』……！ 対象を特殊な空間に閉じ込めて、一定時間が経つとその人になり代わる都市伝説の怪異……！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "だからさっき、Webページに左右反転した偽の答えが混ざっていたんですね。『うつしみさん』が私をここから出さないように、謎解きに細工をして邪魔をしてるんだ……！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "……気ヅイタカ。ナラバ次ハ『時間』ノズレヲ確カメろ……彼女ガイルノハ、今年デハナイ……",
-        "effect": "glitch",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "えっ……？『今年ではない』ってどういうことですか……？ 私、今日の文化祭の当番で部室に来たはずなのに……。",
-        "effect": "date_3yrs_ago",
-        "media": "photo_calendar.svg",
-        "caption": "ヒカネのスマホ画面のスクショ（日付が2023年になっている）"
-      },
-      {
-        "speaker": "hikane",
-        "message": "嘘……皆さん、同好会ページ（ pages/club.html ）の部員名簿や、掲示板（ pages/bbs.html ）の書き込み日付を見てください！ 私が閉じ込められているこの文化祭って、今から【何年前】なんですか！？",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ],
-    "chap4_ritual": [
-      {
-        "speaker": "hikane",
-        "message": "3年前……！？ じゃあ、チャットしているあなたは、3年後の未来の文化祭から私に話しかけてくれているんですか……！？",
-        "effect": "long_typing",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "あっ……部屋の壁が、鏡みたいに歪み始めました……！『うつしみさん』が私になり代わるまでの制限時間が、もうすぐ尽きちゃいます……！",
-        "effect": "normal",
-        "media": "voice_bell.synth",
-        "caption": "（遠くで鳴り響く合成音声のチャイム音）"
-      },
-      {
-        "speaker": "mystery",
-        "message": "……時間ガナイ。まとめブログ（ pages/urban.html ）ト掲示板（ pages/bbs.html ）ノ最新ログヲ開ケ。呪イヲ解ク『儀式ノ合言葉』ガアル……",
-        "effect": "glitch",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "タダシ気ヲツケロ……『うつしみ』ガ偽ノ合言葉ヲ大キク書キ換エタ。【左右反転】ノ痕跡ガナイ、本物ノ合言葉（7文字）ダケヲ入力シロ……！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "お願いします……！ まとめブログと掲示板を見比べて、うつしみさんの偽物じゃない『本物の儀式の合言葉』を教えてください！！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ],
-    "ending_bad": [
-      {
-        "speaker": "hikane",
-        "message": "えっ……『アカツキノカガミ』を唱えたら、部屋の鏡が一斉に割れて……あ、れ……？ からだが、うごか……ない……",
-        "effect": "long_typing",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "ワタシハ、ヒカネ。モウ、ダイジョウブダヨ。",
-        "effect": "mirror",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "system",
-        "message": "【通信が強制切断されました —— 3年後の現在時刻へ再接続します】",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "タスケテクレテ、アリガトウ。ワタシハ3年後ノ今モ、トテモ元気ダヨ。マタ部室ニアソビニキテネ。",
-        "effect": "mirror",
-        "media": "voice_bad.synth",
-        "caption": "（冷たい合成音声：「ワタシハ、イマモ、トテモ元気ダヨ」）"
-      },
-      {
-        "speaker": "system",
-        "message": "【BAD END：現身の乗っ取り】偽の合言葉により儀式は失敗し、3年後の「現在のヒカネ」もうつしみさんに上書きされてしまいました。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ],
-    "ending_true": [
-      {
-        "speaker": "hikane",
-        "message": "『ヨアケノウタ（夜明けの歌）』……！ PCの画面が白い光に包まれて……あっ、部室のドアノブが回りました！！ 外の文化祭の音が聞こえます！！",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "hikane",
-        "message": "助かりました……！ 3年後の未来のあなたのおかげです！ 私、絶対にこのご恩を忘れません。いつか3年後の文化祭で、必ずあなたにお礼を伝えますね！！",
-        "effect": "date_3yrs_ago",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "system",
-        "message": "【時空回線が閉じ、今年の文化祭の回線へ切り替わりました】",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "……いいえ、もうノイズは要りませんね。こんにちは、そして『3年ぶり』ですね。",
-        "effect": "normal",
-        "media": "photo_letter.svg",
-        "caption": "ポップコーンに添えられていた手紙と同じ筆跡のメッセージカード"
-      },
-      {
-        "speaker": "mystery",
-        "message": "あなたに手紙を渡し、このWebサイトと部屋の仕掛けを用意した『謎の人物』……それは、3年前にあなたに救われた【現在の私（4年生になったヒカネ）】でした。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "うつしみさんは時間をまたいで妨害してくるため、最初から正体を明かすと歴史が歪んで救出が失敗してしまうんです。だから、あえて遠回りな謎解きであなたを導きました。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      },
-      {
-        "speaker": "mystery",
-        "message": "3年前、暗闇の中で私を救ってくれた未来の声は、あなたでした。3年分、本当にありがとう。",
-        "effect": "normal",
-        "media": "voice_true.synth",
-        "caption": "（澄んだ歌声シンセのメロディ：「3年分、ありがとう」）"
-      },
-      {
-        "speaker": "system",
-        "message": "【TRUE END：時空を超えた救出劇 クリア！】この画面を室内ブースのスタッフにご提示ください。特典をお渡しします。",
-        "effect": "normal",
-        "media": "",
-        "caption": ""
-      }
-    ]
-  },
-  "branches": {
     "chap1_start": {
-      "true_hashes": [
-        "a61122acdb339d49",
-        "a61122acdb339d49",
-        "818e35547405e935",
-        "8d524b1887a7fdd6",
-        "8d524b1887a7fdd6",
-        "c34a0683805e0172",
-        "0639bc3eb1300af8"
+      "intro": [
+        {
+          "speaker": "system",
+          "message": "暗号化通信回線「U-Talk」に接続しました。",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "……えっ、つながった！？ 誰かいますか！？",
+          "effect": "date_3yrs_ago",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "よかった……！ 外で配られていた手紙を見て、このページにアクセスしてくれたんですね！ 私、音紡ぎ同好会1年の「ヒカネ」っていいます。",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "文化祭の準備をしてたら、急に部室のドアが開かなくなって……窓の外も霧みたいにぼやけて、誰の声も聞こえないんです。",
+          "effect": "normal",
+          "media": "photo_room.svg",
+          "caption": "ヒカネから送られてきた部室の写真（時計の針が止まっている）"
+        },
+        {
+          "speaker": "hikane",
+          "message": "目の前にある古いPCの画面に『ロック解除キー：当サークルが2023年の文化祭で発表した記念曲【〇〇〇のうた】の〇〇〇を入力せよ』って出てるんですけど、思い出せなくて……。",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "上の「🎵 同好会サイト」からWebページを見て、〇〇〇に入る3文字を教えてもらえませんか！？（ pages/club.html ）",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        }
       ],
-      "true_normalized": [
-        "コダマ",
-        "コダマ",
-        "木霊",
-        "コダマノウタ",
-        "コダマノウタ",
-        "木霊ノウタ",
-        "木霊ノ歌"
-      ],
-      "true_sample": "コダマ",
-      "next_scene": "chap2_urban",
-      "fake_hashes": [
-        "3e22241197243f1a",
-        "3e22241197243f1a",
-        "bb5d9c1ed13d1cc0",
-        "bb5d9c1ed13d1cc0"
-      ],
-      "fake_normalized": [
-        "マダコ",
-        "マダコ",
-        "マダコノウタ",
-        "マダコノウタ"
-      ],
-      "fake_sample": "マダコ",
-      "fake_next_scene": "chap1_fake",
-      "hints": [
-        "ヒカネ「下のリンクから『音紡ぎ同好会 アーカイブ（pages/club.html）』を開いてみてください…！」",
-        "ヒカネ「アーカイブページの『2023年 文化祭発表曲』のところ、2つ書いてありますけど、片方は文字が逆さま（鏡文字）になっていませんか…？」",
-        "ヒカネ「鏡文字じゃない方の3文字…森の中で声が返ってくる現象、『コ〇〇』です！」"
-      ]
-    },
-    "chap1_fake": {
-      "true_hashes": [
-        "a61122acdb339d49",
-        "a61122acdb339d49",
-        "818e35547405e935",
-        "8d524b1887a7fdd6",
-        "8d524b1887a7fdd6",
-        "c34a0683805e0172",
-        "0639bc3eb1300af8"
-      ],
-      "true_normalized": [
-        "コダマ",
-        "コダマ",
-        "木霊",
-        "コダマノウタ",
-        "コダマノウタ",
-        "木霊ノウタ",
-        "木霊ノ歌"
-      ],
-      "true_sample": "コダマ",
-      "next_scene": "chap2_urban",
-      "fake_hashes": [
-        "3e22241197243f1a",
-        "3e22241197243f1a"
-      ],
-      "fake_normalized": [
-        "マダコ",
-        "マダコ"
-      ],
-      "fake_sample": "マダコ",
-      "fake_next_scene": "chap1_fake",
-      "hints": [
-        "ヒカネ「同好会ページ（pages/club.html）の鏡文字になっていない方の曲名を見てください！」",
-        "ヒカネ「『〇〇〇のうた』の〇〇〇に入るカタカナ3文字です！」",
-        "ヒカネ「答えは『コダマ』です！入力してみてください！」"
+      "topics": [
+        {
+          "topic_id": "ask_door",
+          "trigger_keywords": [
+            "ドア",
+            "あかない",
+            "開かない",
+            "部屋",
+            "部室",
+            "閉じ込め",
+            "出られない",
+            "助けて"
+          ],
+          "trigger_normalized": [
+            "ドア",
+            "アカナイ",
+            "開カナイ",
+            "部屋",
+            "部室",
+            "閉ジ込メ",
+            "出ラレナイ",
+            "助ケテ"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "ドアノブをいくら回してもビクともしないんです……鍵穴もないし、外を叩いても誰も気づいてくれなくて……。",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "ask_pc",
+          "trigger_keywords": [
+            "pc",
+            "パソコン",
+            "画面",
+            "ロック",
+            "解除キー",
+            "キー"
+          ],
+          "trigger_normalized": [
+            "pc",
+            "パソコン",
+            "画面",
+            "ロック",
+            "解除キー",
+            "キー"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "部室の隅にあった古いデスクトップPCです！ 画面が青白く光ってて、曲名を入力する四角い枠が点滅しています……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "trap_madako",
+          "trigger_keywords": [
+            "マダコ",
+            "まだこ",
+            "マダコノウタ",
+            "まだこのうた"
+          ],
+          "trigger_normalized": [
+            "マダコ",
+            "マダコ",
+            "マダコノウタ",
+            "マダコノウタ"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "mystery",
+              "message": "……ソッチハ、罠ダ……反転シタ文字ヲ信ジルナ……",
+              "effect": "glitch",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "hikane",
+              "message": "きゃあっ！？ いま画面にすごいノイズが走って、変な文字が割り込んできました……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "hikane",
+              "message": "『マダコ』って入れたら、PCの画面が真っ赤に点滅してエラーになっちゃいました……！ あっ、でもよく見てください！ 同好会ページの『マダコ』って書かれていた場所、周りの記号が【左右逆さま（鏡文字）】になっていませんか！？",
+              "effect": "mirror",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "hikane",
+              "message": "誰かがWebページに細工をして、逆さまの偽情報を混ぜてるみたいです……！ もう一度、鏡文字じゃない方の『ほんとうの3文字』を探して入力してください！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "ans_kodama",
+          "trigger_keywords": [
+            "コダマ",
+            "こだま",
+            "木霊",
+            "コダマノウタ",
+            "こだまのうた",
+            "木霊のうた",
+            "木霊の歌"
+          ],
+          "trigger_normalized": [
+            "コダマ",
+            "コダマ",
+            "木霊",
+            "コダマノウタ",
+            "コダマノウタ",
+            "木霊ノウタ",
+            "木霊ノ歌"
+          ],
+          "next_scene": "chap2_urban",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "……カチッて音がして、PCのロックが1つ外れました！『コダマ（木霊）のうた』だったんですね、ありがとうございます！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        }
       ]
     },
     "chap2_urban": {
-      "true_hashes": [
-        "50b5a8a87ef71505",
-        "f2dffd8627a46f47",
-        "50b5a8a87ef71505",
-        "f2dffd8627a46f47",
-        "e6900cc6771846a4",
-        "6e9bd201a080fa70",
-        "36c33c8bc99a4597",
-        "befc4fdaf2d87543",
-        "bac68683789a7862"
+      "intro": [
+        {
+          "speaker": "mystery",
+          "message": "……気ヲツケロ……ソノ空間ニハ『うつしみ』ガイル……",
+          "effect": "glitch",
+          "media": "voice_warning.synth",
+          "caption": "（合成音声のようなノイズ声：「気ヲツケロ…ソノ空間ニハ…ウツシミガイル…」）"
+        },
+        {
+          "speaker": "mystery",
+          "message": "直接伝エルト感付カレル……展示ノ実物ト照ラシ合ワセロ……",
+          "effect": "vanish",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "ひっ……！？ またさっきの不気味なアカウントが割り込んできて、しかもメッセージが勝手に消えました……！ あの人、いったい誰なの……！？",
+          "effect": "long_typing",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "でも、ロックが外れたPCの中に怪異ブログ（ pages/urban.html ）と裏BBS（ pages/bbs.html ）の記録が見つかりました。私を閉じ込めている『怪異の名前』を教えてもらえませんか？",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        }
       ],
-      "true_normalized": [
-        "ウツシミサン",
-        "ウツシミ",
-        "ウツシミサン",
-        "ウツシミ",
-        "現身",
-        "写シ身",
-        "映シ身",
-        "現身サン",
-        "写シ身サン"
-      ],
-      "true_sample": "うつしみさん",
-      "next_scene": "chap3_truth",
-      "fake_hashes": [
-        "e57cc120685b8485",
-        "e57cc120685b8485",
-        "63620f38e43c0b29",
-        "741dba53423e49a0"
-      ],
-      "fake_normalized": [
-        "カゲワニ",
-        "カゲワニ",
-        "クネクネ",
-        "キサラギ駅"
-      ],
-      "fake_sample": "かげわに",
-      "fake_next_scene": "chap2_urban",
-      "hints": [
-        "ヒカネ「まとめブログ（pages/urban.html）のタイトルや本文に書かれている都市伝説の名前です…！」",
-        "ヒカネ「ひらがなで『う〇〇〇さん』という怪異の名前みたいです…！」",
-        "ヒカネ「『うつしみさん』と入力してみてください…！」"
+      "topics": [
+        {
+          "topic_id": "ask_blog",
+          "trigger_keywords": [
+            "ブログ",
+            "怪異",
+            "オカルト",
+            "調査録",
+            "うわさ",
+            "噂"
+          ],
+          "trigger_normalized": [
+            "ブログ",
+            "怪異",
+            "オカルト",
+            "調査録",
+            "ウワサ",
+            "噂"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "オカルトや学園の都市伝説をまとめた個人ブログみたいです……『写し身』とか不気味なことが書かれています……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "ask_bbs",
+          "trigger_keywords": [
+            "bbs",
+            "掲示板",
+            "裏キャンパス",
+            "名無し",
+            "過去ログ"
+          ],
+          "trigger_normalized": [
+            "bbs",
+            "掲示板",
+            "裏キャンパス",
+            "名無シ",
+            "過去ログ"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "学内の匿名掲示板です！ 過去の文化祭の日の書き込みも残っているみたいで……何かヒントがあるかも……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "ans_utsushimi",
+          "trigger_keywords": [
+            "うつしみさん",
+            "うつしみ",
+            "ウツシミサン",
+            "ウツシミ",
+            "現身",
+            "写し身",
+            "映し身",
+            "現身さん",
+            "写し身さん"
+          ],
+          "trigger_normalized": [
+            "ウツシミサン",
+            "ウツシミ",
+            "ウツシミサン",
+            "ウツシミ",
+            "現身",
+            "写シ身",
+            "映シ身",
+            "現身サン",
+            "写シ身サン"
+          ],
+          "next_scene": "chap3_truth",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "『うつしみさん』……！ 対象を特殊な空間に閉じ込めて、一定時間が経つとその人になり代わる都市伝説の怪異……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "hikane",
+              "message": "だからさっき、Webページに左右反転した偽の答えが混ざっていたんですね。『うつしみさん』が私をここから出さないように、謎解きに細工をして邪魔をしてるんだ……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        }
       ]
     },
     "chap3_truth": {
-      "true_hashes": [
-        "ceb36bcade65ffab",
-        "ceb36bcade65ffab",
-        "e5b055bd0f36ca91",
-        "4e07408562bedb8b",
-        "4e07408562bedb8b",
-        "f5ad0f477ac1d867",
-        "b3742fc93b4a56e4",
-        "b3742fc93b4a56e4",
-        "b13f0b14f6bd5842",
-        "3a424303c0c8badb",
-        "d398b29d3dbbb9bf"
+      "intro": [
+        {
+          "speaker": "mystery",
+          "message": "……気ヅイタカ。ナラバ次ハ『時間』ノズレヲ確カメろ……彼女ガイルノハ、今年デハナイ……",
+          "effect": "glitch",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "えっ……？『今年ではない』ってどういうことですか……？ 私、今日の文化祭の当番で部室に来たはずなのに……。",
+          "effect": "date_3yrs_ago",
+          "media": "photo_calendar.svg",
+          "caption": "ヒカネのスマホ画面のスクショ（日付が2023年になっている）"
+        },
+        {
+          "speaker": "hikane",
+          "message": "嘘……皆さん、同好会ページ（ pages/club.html ）の部員名簿や、掲示板（ pages/bbs.html ）の書き込み日付を見てください！ 私が閉じ込められているこの文化祭って、今から【何年前】なんですか！？",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        }
       ],
-      "true_normalized": [
-        "3年前",
-        "3年前",
-        "三年前",
-        "3",
-        "3",
-        "サンネンマエ",
-        "3年",
-        "3年",
-        "三年",
-        "2023年",
-        "2023"
-      ],
-      "true_sample": "3年前",
-      "next_scene": "chap4_ritual",
-      "fake_hashes": [
-        "84300f571189649a",
-        "6a4985aebd44eb71",
-        "d4cee0f61abf0100",
-        "f041ca777b618f77",
-        "3a7ddf6c862aa15c"
-      ],
-      "fake_normalized": [
-        "1年前",
-        "2年前",
-        "4年前",
-        "5年前",
-        "今年"
-      ],
-      "fake_sample": "1年前",
-      "fake_next_scene": "chap3_truth",
-      "hints": [
-        "ヒカネ「同好会ページ（pages/club.html）で、私が『1年生』として載っているのが何年か見てみてください…！」",
-        "ヒカネ「私がいるのは2023年の文化祭みたいです…今年（2026年）から見ると【何年前】でしょうか？」",
-        "ヒカネ「数字で『3年前』と入力してみてください…！」"
+      "topics": [
+        {
+          "topic_id": "ask_calendar",
+          "trigger_keywords": [
+            "カレンダー",
+            "スマホ",
+            "日付",
+            "今日",
+            "2023",
+            "時間"
+          ],
+          "trigger_normalized": [
+            "カレンダー",
+            "スマホ",
+            "日付",
+            "今日",
+            "2023",
+            "時間"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "私のスマホの時計もカレンダーも、2023年10月10日で止まってるんです……。",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "ans_3years",
+          "trigger_keywords": [
+            "3年前",
+            "３年前",
+            "三年前",
+            "3",
+            "３",
+            "さんねんまえ",
+            "3年",
+            "３年",
+            "三年",
+            "2023年",
+            "2023"
+          ],
+          "trigger_normalized": [
+            "3年前",
+            "3年前",
+            "三年前",
+            "3",
+            "3",
+            "サンネンマエ",
+            "3年",
+            "3年",
+            "三年",
+            "2023年",
+            "2023"
+          ],
+          "next_scene": "chap4_ritual",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "3年前……！？ じゃあ、チャットしているあなたは、3年後の未来の文化祭から私に話しかけてくれているんですか……！？",
+              "effect": "long_typing",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        }
       ]
     },
     "chap4_ritual": {
-      "true_hashes": [
-        "cd931c8111c88644",
-        "cd931c8111c88644",
-        "4d6f33fc57913a11",
-        "4d7d0d044ba48cdb",
-        "e00c54073acd6342",
-        "e00c54073acd6342"
+      "intro": [
+        {
+          "speaker": "hikane",
+          "message": "あっ……部屋の壁が、鏡みたいに歪み始めました……！『うつしみさん』が私になり代わるまでの制限時間が、もうすぐ尽きちゃいます……！",
+          "effect": "normal",
+          "media": "voice_bell.synth",
+          "caption": "（遠くで鳴り響く合成音声のチャイム音）"
+        },
+        {
+          "speaker": "mystery",
+          "message": "……時間ガナイ。怪異ブログ（ pages/urban.html ）ト掲示板（ pages/bbs.html ）ノ最新ログヲ開ケ。呪イヲ解ク『儀式ノ合言葉』ガアル……",
+          "effect": "glitch",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "mystery",
+          "message": "タダシ気ヲツケロ……『うつしみ』ガ偽ノ合言葉ヲ大キク書キ換エタ。【左右反転】ノ痕跡ガナイ、本物ノ合言葉（7文字）ダケヲ入力シロ……！",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        },
+        {
+          "speaker": "hikane",
+          "message": "お願いします……！「👁️ 怪異ブログ」と「📋 裏キャンパスBBS」を見比べて、うつしみさんの偽物じゃない『本物の儀式の合言葉』を教えてください！！",
+          "effect": "normal",
+          "media": "",
+          "caption": ""
+        }
       ],
-      "true_normalized": [
-        "ヨアケノウタ",
-        "ヨアケノウタ",
-        "夜明ケノ歌",
-        "夜明ケノウタ",
-        "ヨアケ",
-        "ヨアケ"
-      ],
-      "true_sample": "ヨアケノウタ",
-      "next_scene": "ending_true",
-      "fake_hashes": [
-        "30f9dc8c232fe8f0",
-        "30f9dc8c232fe8f0",
-        "a1cbb4b99d03b455",
-        "44cfe91e70c8a062",
-        "44cfe91e70c8a062"
-      ],
-      "fake_normalized": [
-        "アカツキノカガミ",
-        "アカツキノカガミ",
-        "暁ノ鏡",
-        "アカツキ",
-        "アカツキ"
-      ],
-      "fake_sample": "アカツキノカガミ",
-      "fake_next_scene": "ending_bad",
-      "hints": [
-        "ヒカネ「まとめブログ（pages/urban.html）に大きく書かれている『アカツキノカガミ』、よく見ると周りに左右反転の細工がありませんか…？ それは罠かもしれません！」",
-        "ヒカネ「匿名掲示板（pages/bbs.html）の一番下の書き込みに【反転していない本物の合言葉】が隠されています！ 長押しや選択で探してみてください！」",
-        "ヒカネ「掲示板に隠されていた本物の合言葉…『ヨアケノウタ（夜明けの歌）』を入力してください！」"
+      "topics": [
+        {
+          "topic_id": "ask_mirror",
+          "trigger_keywords": [
+            "鏡",
+            "壁",
+            "歪み",
+            "部屋",
+            "ゆがみ",
+            "時間"
+          ],
+          "trigger_normalized": [
+            "鏡",
+            "壁",
+            "歪ミ",
+            "部屋",
+            "ユガミ",
+            "時間"
+          ],
+          "next_scene": "",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "部室の壁や窓ガラスが全部、銀色の鏡みたいになって……自分の姿が何重にも映って不気味です……！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "trap_bad",
+          "trigger_keywords": [
+            "アカツキノカガミ",
+            "あかつきのかがみ",
+            "暁の鏡",
+            "アカツキ",
+            "あかつき"
+          ],
+          "trigger_normalized": [
+            "アカツキノカガミ",
+            "アカツキノカガミ",
+            "暁ノ鏡",
+            "アカツキ",
+            "アカツキ"
+          ],
+          "next_scene": "ending_bad",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "えっ……『アカツキノカガミ』を唱えたら、部屋の鏡が一斉に割れて……あ、れ……？ からだが、うごか……ない……",
+              "effect": "long_typing",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "hikane",
+              "message": "ワタシハ、ヒカネ。モウ、ダイジョウブダヨ。",
+              "effect": "mirror",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "system",
+              "message": "【通信が強制切断されました —— 3年後の現在時刻へ再接続します】",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "mystery",
+              "message": "タスケテクレテ、アリガトウ。ワタシハ3年後ノ今モ、トテモ元気ダヨ。マタ部室ニアソビニキテネ。",
+              "effect": "mirror",
+              "media": "voice_bad.synth",
+              "caption": "（冷たい合成音声：「ワタシハ、イマモ、トテモ元気ダヨ」）"
+            },
+            {
+              "speaker": "system",
+              "message": "【BAD END：現身の乗っ取り】偽の合言葉により儀式は失敗し、3年後の「現在のヒカネ」もうつしみさんに上書きされてしまいました。",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "topic_id": "ans_true",
+          "trigger_keywords": [
+            "ヨアケノウタ",
+            "よあけのうた",
+            "夜明けの歌",
+            "夜明けのうた",
+            "ヨアケ",
+            "よあけ"
+          ],
+          "trigger_normalized": [
+            "ヨアケノウタ",
+            "ヨアケノウタ",
+            "夜明ケノ歌",
+            "夜明ケノウタ",
+            "ヨアケ",
+            "ヨアケ"
+          ],
+          "next_scene": "ending_true",
+          "lines": [
+            {
+              "speaker": "hikane",
+              "message": "『ヨアケノウタ（夜明けの歌）』……！ PCの画面が白い光に包まれて……あっ、部室のドアノブが回りました！！ 外の文化祭の音が聞こえます！！",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "hikane",
+              "message": "助かりました……！ 3年後の未来のあなたのおかげです！ 私、絶対にこのご恩を忘れません。いつか3年後の文化祭で、必ずあなたにお礼を伝えますね！！",
+              "effect": "date_3yrs_ago",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "system",
+              "message": "【時空回線が閉じ、今年の文化祭の回線へ切り替わりました】",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "mystery",
+              "message": "……いいえ、もうノイズは要りませんね。こんにちは、そして『3年ぶり』ですね。",
+              "effect": "normal",
+              "media": "photo_letter.svg",
+              "caption": ""
+            },
+            {
+              "speaker": "mystery",
+              "message": "あなたに手紙を渡し、このWebサイトと部屋の仕掛けを用意した『謎の人物』……それは、3年前にあなたに救われた【現在の私（4年生になったヒカネ）】でした。",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "mystery",
+              "message": "うつしみさんは時間をまたいで妨害してくるため、最初から正体を明かすと歴史が歪んで救出が失敗してしまうんです。だから、あえて遠回りな謎解きであなたを導きました。",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            },
+            {
+              "speaker": "mystery",
+              "message": "3年前、暗闇の中で私を救ってくれた未来の声は、あなたでした。3年分、本当にありがとう。",
+              "effect": "normal",
+              "media": "voice_true.synth",
+              "caption": "（澄んだ歌声シンセのメロディ：「3年分、ありがとう」）"
+            },
+            {
+              "speaker": "system",
+              "message": "🎉【TRUE END：時空を超えた救出劇 クリア！】この画面を室内ブースのスタッフにご提示ください。",
+              "effect": "normal",
+              "media": "",
+              "caption": ""
+            }
+          ]
+        }
       ]
     }
+  },
+  "hints": {
+    "chap1_start": [
+      "ヒカネ「上の『🎵 同好会サイト（pages/club.html）』を開いてみてください…！」",
+      "ヒカネ「アーカイブの『2023年 文化祭発表曲』のところ、2つ書いてありますけど、片方は文字が逆さま（鏡文字）になっていませんか…？」",
+      "ヒカネ「鏡文字じゃない方の3文字…声が山で返ってくる現象、『コ〇〇』です！」"
+    ],
+    "chap2_urban": [
+      "ヒカネ「怪異ブログ（pages/urban.html）に書かれている都市伝説の名前を調べてみてください…！」",
+      "ヒカネ「ひらがなで『う〇〇〇さん』という、人になり代わる怪異の名前です…！」",
+      "ヒカネ「『うつしみさん』と入力してみてください…！」"
+    ],
+    "chap3_truth": [
+      "ヒカネ「同好会サイト（pages/club.html）で、私が1年生として載っているのが何年か確認してみてください…！」",
+      "ヒカネ「私がいるのは2023年の文化祭です…今年（2026年）から見ると【何年前】でしょうか？」",
+      "ヒカネ「『3年前』と入力してみてください…！」"
+    ],
+    "chap4_ritual": [
+      "ヒカネ「怪異ブログ（pages/urban.html）の『アカツキノカガミ』には左右反転の細工があります。罠です！」",
+      "ヒカネ「裏キャンパスBBS（pages/bbs.html）の一番下の書き込みの【黒い枠】をタップ（選択）してみてください！」",
+      "ヒカネ「掲示板の隠し文字に書かれた本物の合言葉…『ヨアケノウタ』を入力してください！」"
+    ]
   },
   "pages": {
     "club": [
